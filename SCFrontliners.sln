@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{481966A2-AE3F-48B4-AA7A-7B79B2370DA0}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{0C814AF9-F3C8-451D-85E7-6B8A7348A0CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{50BA3E85-8ED9-40F0-ACE7-026B8938A1EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{ABD41DB5-E518-487A-8DB0-9548820DC46B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{BBDFAC6E-D060-4681-8A6C-CB2697210C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCFrontliners.Project.Website", "src\Project\Website\code\SCFrontliners.Project.Website.csproj", "{C1E071D6-8DB0-4D2E-BE15-C07F39B09283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1E071D6-8DB0-4D2E-BE15-C07F39B09283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E071D6-8DB0-4D2E-BE15-C07F39B09283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E071D6-8DB0-4D2E-BE15-C07F39B09283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E071D6-8DB0-4D2E-BE15-C07F39B09283}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBDFAC6E-D060-4681-8A6C-CB2697210C6F} = {ABD41DB5-E518-487A-8DB0-9548820DC46B}
+		{C1E071D6-8DB0-4D2E-BE15-C07F39B09283} = {BBDFAC6E-D060-4681-8A6C-CB2697210C6F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EF89B64-4100-48DB-A14F-732226A068FF}
+	EndGlobalSection
+EndGlobal
