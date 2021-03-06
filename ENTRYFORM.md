@@ -9,79 +9,79 @@
 You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
 
 ## Team name
-⟹ Sitecore Frontliners
+⟹ Write the name of your Hackathon team here
 
 ## Category
-⟹ The best enhancement to SXA
+⟹ Write the name of the selected category
 
 ## Description
 ⟹ Write a clear description of your hackathon entry.  
 
-  - Module Purpose:
-        - To replicate the site with an option to include the required items only and themes.
-        - After replicating the site, it also allows user to clone certain items from one site (of one tenant) to another (of different tenant)
-  
+  - Module Purpose
   - What problem was solved (if any)
-    - It allows content author to replicate the site across different tenants with option to skip unwanted page items along with themes.
+    - How does this module solve it
+
+_You can alternately paste a [link here](#docs) to a document within this repo containing the description._
 
 ## Video link
 ⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
 
 ⟹ [Replace this Video link](#video-link)
 
+
+
 ## Pre-requisites and Dependencies
 
 ⟹ Does your module rely on other Sitecore modules or frameworks?
 
-- List of dependencies:
-    - SPE 6.2
-    - SXA 10.1.0
+- List any dependencies
+- Or other modules that must be installed
+- Or services that must be enabled/configured
+
+_Remove this subsection if your entry does not have any prerequisites other than Sitecore_
 
 ## Installation instructions
+⟹ Write a short clear step-wise instruction on how to install your module.  
 
-1. Go to Sitecore 10.1 CM Evnironment
-2. Login to Sitecore
-3. Install attached sitecore package: https://github.com/Sitecore-Hackathon/2021-Sitecore-Frontliners/blob/main/media/Hackathon2021-SitecoreFrontliners-SiteReplication-1.0.0.zip
-4. Access the utility from context menu option of Site item to replicate or clone the site or access any page item/datasource item context menu to replicate or clone item.
+> _A simple well-described installation process is required to win the Hackathon._  
+> Feel free to use any of the following tools/formats as part of the installation:
+> - Sitecore Package files
+> - Docker image builds
+> - Sitecore CLI
+> - msbuild
+> - npm / yarn
+> 
+> _Do not use_
+> - TDS
+> - Unicorn
+ 
+f. ex. 
 
-Sitecore Package Contents:
-Package includes custom powershell scripts.
+1. Start docker environment using `.\Start-Hackathon.ps1`
+2. Open solution in Visual Studio and run build
+3. Use the Sitecore Installation wizard to install the [package](#link-to-package)
+4. ...
+5. profit
 
-<img width="195" alt="2021-03-07 02_09_29-Desktop" src="https://user-images.githubusercontent.com/12103556/110222607-e5570880-7eec-11eb-93e1-516247e39b22.png">
+### Configuration
+⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
 
+_Remove this subsection if your entry does not require any configuration that is not fully covered in the installation instructions already_
 
 ## Usage instructions
 ⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
-- Right click on any Site item which you want to replicate.
 
-  <img width="471" alt="2021-03-07 01_48_36-Settings" src="https://user-images.githubusercontent.com/12103556/110222313-b9d31e80-7eea-11eb-8af4-fac89f1191d4.png">
+Include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
 
-- In custom replicate site dialog, you'll see fields like New Site Path - path where we want to create new site, Source site language, Target language, Copy theme or not etc.   Fill in the necessary information. 
+![Hackathon Logo](docs/images/hackathon.png?raw=true "Hackathon Logo")
 
-  <img width="369" alt="2021-03-07 01_50_21-Desktop" src="https://user-images.githubusercontent.com/12103556/110222426-7a590200-7eeb-11eb-97e5-27c8f0e729ad.png">
+You can embed images of different formats too:
 
-- Go to next tab and select required modules for the new site
+![Deal With It](docs/images/deal-with-it.gif?raw=true "Deal With It")
 
-- Select items from source site which you want to replicate in new site. Other items won't be copied. You can also select if you want to copy item only or with children/descendants.
+And you can embed external images too:
 
-  <img width="370" alt="2021-03-07 01_58_47-Desktop" src="https://user-images.githubusercontent.com/12103556/110222455-c1df8e00-7eeb-11eb-9212-fcf3e645d01e.png">
-
-- Site will be replicated and selected items will be copied to newly created site
-
-  <img width="233" alt="2021-03-07 02_02_22-Desktop" src="https://user-images.githubusercontent.com/12103556/110222497-15ea7280-7eec-11eb-8458-d4b12b6a0de4.png">
-
-- You can also copy any individual item with desired language version to newly created site if missed during site replication. Right click on any item which you want to copy, select Scripts -> Replicate Page
-
-  <img width="496" alt="2021-03-07 02_03_46-Photos" src="https://user-images.githubusercontent.com/12103556/110222543-75e11900-7eec-11eb-948a-ee7b9692bf6d.png">
-
-- Select source and target language for the item. Select destination path where you want to replicate the page and target item name if you want to specify different name then source otherwise leave empty.
-
-  <img width="443" alt="2021-03-07 02_04_52-Desktop" src="https://user-images.githubusercontent.com/12103556/110222585-b50f6a00-7eec-11eb-833b-f60c2b9d7988.png">
-
-- Newly replicated item will be visible in target location
-
-  <img width="502" alt="2021-03-07 02_06_25-Desktop" src="https://user-images.githubusercontent.com/12103556/110222599-d2443880-7eec-11eb-945e-b580175aa5f1.png">
-  
+![Random](https://thiscatdoesnotexist.com/)
 
 ## Comments
 If you'd like to make additional comments that is important for your module entry.
