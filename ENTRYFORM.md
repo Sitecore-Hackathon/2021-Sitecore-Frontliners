@@ -50,7 +50,23 @@ Package includes custom powershell scripts.
 ## Usage instructions
 ⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
 - Right click on any Site item which you want to replicate.
+
   <img width="471" alt="2021-03-07 01_48_36-Settings" src="https://user-images.githubusercontent.com/12103556/110222313-b9d31e80-7eea-11eb-8af4-fac89f1191d4.png">
+
+- In custom replicate site dialog, you'll see fields like New Site Path - path where we want to create new site, Source site language, Target language, Copy theme or not etc.   Fill in the necessary information. 
+
+  <img width="369" alt="2021-03-07 01_50_21-Desktop" src="https://user-images.githubusercontent.com/12103556/110222426-7a590200-7eeb-11eb-97e5-27c8f0e729ad.png">
+
+- Go to next tab and select required modules for the new site
+
+- Select items from source site which you want to replicate in new site. Other items won't be copied. You can also select if you want to copy item only or with children/descendants.
+
+  <img width="370" alt="2021-03-07 01_58_47-Desktop" src="https://user-images.githubusercontent.com/12103556/110222455-c1df8e00-7eeb-11eb-9212-fcf3e645d01e.png">
+
+- Site will be replicated and selected items will be copied to newly created site
+
+  <img width="233" alt="2021-03-07 02_02_22-Desktop" src="https://user-images.githubusercontent.com/12103556/110222497-15ea7280-7eec-11eb-8458-d4b12b6a0de4.png">
+
 
 ## Comments
 If you'd like to make additional comments that is important for your module entry.
