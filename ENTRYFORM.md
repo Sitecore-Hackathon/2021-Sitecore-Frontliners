@@ -47,6 +47,9 @@ You can find a very good reference to Github flavoured markdown reference in [th
 Sitecore Package Contents:
 Package includes custom powershell scripts.
 
+<img width="195" alt="2021-03-07 02_09_29-Desktop" src="https://user-images.githubusercontent.com/12103556/110222607-e5570880-7eec-11eb-93e1-516247e39b22.png">
+
+
 ## Usage instructions
 ⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
 - Right click on any Site item which you want to replicate.
@@ -67,6 +70,18 @@ Package includes custom powershell scripts.
 
   <img width="233" alt="2021-03-07 02_02_22-Desktop" src="https://user-images.githubusercontent.com/12103556/110222497-15ea7280-7eec-11eb-8458-d4b12b6a0de4.png">
 
+- You can also copy any individual item with desired language version to newly created site if missed during site replication. Right click on any item which you want to copy, select Scripts -> Replicate Page
+
+  <img width="496" alt="2021-03-07 02_03_46-Photos" src="https://user-images.githubusercontent.com/12103556/110222543-75e11900-7eec-11eb-948a-ee7b9692bf6d.png">
+
+- Select source and target language for the item. Select destination path where you want to replicate the page and target item name if you want to specify different name then source otherwise leave empty.
+
+  <img width="443" alt="2021-03-07 02_04_52-Desktop" src="https://user-images.githubusercontent.com/12103556/110222585-b50f6a00-7eec-11eb-833b-f60c2b9d7988.png">
+
+- Newly replicated item will be visible in target location
+
+  <img width="502" alt="2021-03-07 02_06_25-Desktop" src="https://user-images.githubusercontent.com/12103556/110222599-d2443880-7eec-11eb-945e-b580175aa5f1.png">
+  
 
 ## Comments
 If you'd like to make additional comments that is important for your module entry.
