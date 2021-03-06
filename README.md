@@ -29,7 +29,7 @@
     - It allows content author to replicate the site across different tenants with option to skip unwanted page items along with themes.
 
 ## Video link
-⟹ https://horizontal-my.sharepoint.com/:v:/g/personal/dkumar_horizontalintegration_com/EYMW8ZKsGZFAhHUqA4bpJXYBQOOV-E7omieFQ7iakKJXQA?e=Wv9Sh1(#video-link)
+⟹ [Video link] (https://horizontal-my.sharepoint.com/:v:/g/personal/dkumar_horizontalintegration_com/EYMW8ZKsGZFAhHUqA4bpJXYBQOOV-E7omieFQ7iakKJXQA?e=Wv9Sh1)
 
 ## Pre-requisites and Dependencies
 
