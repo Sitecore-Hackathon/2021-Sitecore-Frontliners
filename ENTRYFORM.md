@@ -12,9 +12,7 @@ You can find a very good reference to Github flavoured markdown reference in [th
 ⟹ Sitecore Frontliners
 
 ## Category
-⟹ 
-- The best enhancement to SXA
-- Best use of SPE to help Content authors and Marketers
+⟹ The best enhancement to SXA
 
 ## Description
 ⟹ Write a clear description of your hackathon entry.  
@@ -22,40 +20,32 @@ You can find a very good reference to Github flavoured markdown reference in [th
   - Module Purpose:
         - To replicate the site with an option to include the required items only and themes.
         - After replicating the site, it also allows user to clone certain items from one site (of one tenant) to another (of different tenant)
+  
   - What problem was solved (if any)
     - It allows content author to replicate the site across different tenants with option to skip unwanted page items along with themes.
-
-_You can alternately paste a [link here](#docs) to a document within this repo containing the description._
 
 ## Video link
 ⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
 
 ⟹ [Replace this Video link](#video-link)
 
-
-
 ## Pre-requisites and Dependencies
 
 ⟹ Does your module rely on other Sitecore modules or frameworks?
 
 - List of dependencies:
-    - SPE
-    - SXA
+    - SPE 6.2
+    - SXA 10.1.0
 
 ## Installation instructions
 
-1. Open any sitecore 10.1 Evnironment
-2. Install attached sitecore package link here 
-3. Login to Sitecore
+1. Go to Sitecore 10.1 CM Evnironment
+2. Login to Sitecore
+3. Install attached sitecore package link here 
 4. Access the utility from context menu option of Site item to replicate or clone the site or access any page item/datasource item context menu for replicate or clone item utility.
 
 Sitecore Package Contents:
 Package includes custom powershell scripts.
-
-### Configuration
-⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
-
-_Remove this subsection if your entry does not require any configuration that is not fully covered in the installation instructions already_
 
 ## Usage instructions
 ⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
