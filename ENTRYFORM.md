@@ -42,7 +42,7 @@ You can find a very good reference to Github flavoured markdown reference in [th
 1. Go to Sitecore 10.1 CM Evnironment
 2. Login to Sitecore
 3. Install attached sitecore package link here 
-4. Access the utility from context menu option of Site item to replicate or clone the site or access any page item/datasource item context menu for replicate or clone item utility.
+4. Access the utility from context menu option of Site item to replicate or clone the site or access any page item/datasource item context menu to replicate or clone item.
 
 Sitecore Package Contents:
 Package includes custom powershell scripts.
