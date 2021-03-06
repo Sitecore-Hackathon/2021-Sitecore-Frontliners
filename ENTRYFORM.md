@@ -39,10 +39,8 @@ _You can alternately paste a [link here](#docs) to a document within this repo c
 ⟹ Does your module rely on other Sitecore modules or frameworks?
 
 - List of dependencies:
-- SPE
-- SXA
-
-_Remove this subsection if your entry does not have any prerequisites other than Sitecore_
+    - SPE
+    - SXA
 
 ## Installation instructions
 
