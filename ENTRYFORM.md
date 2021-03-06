@@ -20,10 +20,10 @@ You can find a very good reference to Github flavoured markdown reference in [th
 ⟹ Write a clear description of your hackathon entry.  
 
   - Module Purpose:
-        - To replicate the site with an option to include the required items and themes.
+        - To replicate the site with an option to include the required items only and themes.
         - After replicating the site, it also allows user to clone certain items from one site (of one tenant) to another (of different tenant)
   - What problem was solved (if any)
-    - It allows content author to replicate the individual item from one site to the other irrespictive of tenant
+    - It allows content author to replicate the site across different tenants with option to skip unwanted page items along with themes.
 
 _You can alternately paste a [link here](#docs) to a document within this repo containing the description._
 
@@ -39,34 +39,20 @@ _You can alternately paste a [link here](#docs) to a document within this repo c
 ⟹ Does your module rely on other Sitecore modules or frameworks?
 
 - List of dependencies:
--   SXA
-- Or other modules that must be installed
-- Or services that must be enabled/configured
+- SPE
+- SXA
 
 _Remove this subsection if your entry does not have any prerequisites other than Sitecore_
 
 ## Installation instructions
-⟹ Write a short clear step-wise instruction on how to install your module.  
 
-> _A simple well-described installation process is required to win the Hackathon._  
-> Feel free to use any of the following tools/formats as part of the installation:
-> - Sitecore Package files
-> - Docker image builds
-> - Sitecore CLI
-> - msbuild
-> - npm / yarn
-> 
-> _Do not use_
-> - TDS
-> - Unicorn
- 
-f. ex. 
+1. Open any sitecore 10.1 Evnironment
+2. Install attached sitecore package link here 
+3. Login to Sitecore
+4. Access the utility from context menu option of Site item to replicate or clone the site or access any page item/datasource item context menu for replicate or clone item utility.
 
-1. Start docker environment using `.\Start-Hackathon.ps1`
-2. Open solution in Visual Studio and run build
-3. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-4. ...
-5. profit
+Sitecore Package Contents:
+Package includes custom powershell scripts.
 
 ### Configuration
 ⟹ If there are any custom configuration that has to be set manually then remember to add all details here.
