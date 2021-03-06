@@ -9,17 +9,21 @@
 You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
 
 ## Team name
-⟹ Write the name of your Hackathon team here
+⟹ Sitecore Frontliners
 
 ## Category
-⟹ Write the name of the selected category
+⟹ 
+- The best enhancement to SXA
+- Best use of SPE to help Content authors and Marketers
 
 ## Description
 ⟹ Write a clear description of your hackathon entry.  
 
-  - Module Purpose
+  - Module Purpose:
+        - To replicate the site with an option to include the required items and themes.
+        - After replicating the site, it also allows user to clone certain items from one site (of one tenant) to another (of different tenant)
   - What problem was solved (if any)
-    - How does this module solve it
+    - It allows content author to replicate the individual item from one site to the other irrespictive of tenant
 
 _You can alternately paste a [link here](#docs) to a document within this repo containing the description._
 
@@ -34,7 +38,8 @@ _You can alternately paste a [link here](#docs) to a document within this repo c
 
 ⟹ Does your module rely on other Sitecore modules or frameworks?
 
-- List any dependencies
+- List of dependencies:
+-   SXA
 - Or other modules that must be installed
 - Or services that must be enabled/configured
 
