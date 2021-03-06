@@ -29,8 +29,6 @@
     - It allows content author to replicate the site across different tenants with option to skip unwanted page items along with themes.
 
 ## Video link
-⟹ Provide a video highlighing your Hackathon module submission and provide a link to the video. You can use any video hosting, file share or even upload the video to this repository. _Just remember to update the link below_
-
 ⟹ https://horizontal-my.sharepoint.com/:v:/g/personal/dkumar_horizontalintegration_com/EYMW8ZKsGZFAhHUqA4bpJXYBQOOV-E7omieFQ7iakKJXQA?e=Wv9Sh1(#video-link)
 
 ## Pre-requisites and Dependencies
