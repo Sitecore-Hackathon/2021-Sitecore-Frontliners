@@ -49,18 +49,8 @@ Package includes custom powershell scripts.
 
 ## Usage instructions
 ⟹ Provide documentation about your module, how do the users use your module, where are things located, what do the icons mean, are there any secret shortcuts etc.
-
-Include screenshots where necessary. You can add images to the `./images` folder and then link to them from your documentation:
-
-![Hackathon Logo](docs/images/hackathon.png?raw=true "Hackathon Logo")
-
-You can embed images of different formats too:
-
-![Deal With It](docs/images/deal-with-it.gif?raw=true "Deal With It")
-
-And you can embed external images too:
-
-![Random](https://thiscatdoesnotexist.com/)
+- Right click on any Site item which you want to replicate.
+  <img width="471" alt="2021-03-07 01_48_36-Settings" src="https://user-images.githubusercontent.com/12103556/110222313-b9d31e80-7eea-11eb-8af4-fac89f1191d4.png">
 
 ## Comments
 If you'd like to make additional comments that is important for your module entry.
