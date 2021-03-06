@@ -41,12 +41,11 @@ You can find a very good reference to Github flavoured markdown reference in [th
 
 1. Go to Sitecore 10.1 CM Evnironment
 2. Login to Sitecore
-3. Install attached sitecore package link here 
+3. Install attached sitecore package: https://github.com/Sitecore-Hackathon/2021-Sitecore-Frontliners/blob/main/media/Hackathon2021-SitecoreFrontliners-SiteReplication-1.0.0.zip
 4. Access the utility from context menu option of Site item to replicate or clone the site or access any page item/datasource item context menu to replicate or clone item.
 
 Sitecore Package Contents:
 Package includes custom powershell scripts.
-- https://github.com/Sitecore-Hackathon/2021-Sitecore-Frontliners/blob/main/media/Hackathon2021-SitecoreFrontliners-SiteReplication-1.0.0.zip
 
 <img width="195" alt="2021-03-07 02_09_29-Desktop" src="https://user-images.githubusercontent.com/12103556/110222607-e5570880-7eec-11eb-93e1-516247e39b22.png">
 
